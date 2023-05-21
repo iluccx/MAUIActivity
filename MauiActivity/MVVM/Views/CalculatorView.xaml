@@ -85,13 +85,14 @@
                 StyleClass="ActionButtons"
                 Command="{Binding ClickDelete}"/>
 
-
             <Button Grid.Row="0" 
                 Grid.Column="2"
                 Text="%"
                 x:Name="BtnPercentage"
                 Clicked="BtnPercentage_Clicked"
-                StyleClass="ActionButtons"/>
+                StyleClass="ActionButtons"
+                Command="{Binding ClickDelete}"/>
+            
             <Button Grid.Row="0" 
                 Grid.Column="3"
                 Text="/"
