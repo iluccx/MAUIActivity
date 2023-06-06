@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiActivity.MVVM.Views.DatabaseView"
+             Title="DatabaseView">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="id"
+           Placeholder="Ingrese su id"/>
+
+        <Entry x:Name="name"
+           Placeholder="Ingrese su nombre"/>
+
+        <Entry x:Name="tel"
+           Placeholder="Ingrese su telefono"/>
+
+        <Entry x:Name="email"
+           Placeholder="Ingrese su email"/>
+
+        <Entry x:Name="obse"
+           Placeholder="Ingrese su observacion"/>
+
+        <Entry x:Name="datIngre"
+           Placeholder="Ingrese su fecha de ingreso"/>
+
+        <Button Grid.Row="0" 
+                Grid.Column="2"
+                Text="Guardar"
+                x:Name="BtnPercentage"
+                StyleClass="ActionButtons"
+                Clicked="BtnCommon_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
